@@ -4,22 +4,40 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Judo Heroes - A Universal JavaScript demo application with React</title>
-    <link rel="stylesheet" href="/css/style1.css?v=3.4.1">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css?v=1.1.12">
   </head>
   <body>
-    Hello
     <div id="main"></div>
+    <header class="header">
+      Header
+    </header>
+    </div>
     <div class="main-content">
-      <div class="break-box">
-        <div class="break-box__left">
-          <div class="break-box__date"></div>
-          <div class="break-box__time"></div>
-        </div>
-        <div class="break-box__right">
-          <div class="break-box__service-name"></div>
-          <div class="break-box__business-name"></div>
-          <div class="break-box__worker-name"></div>
-          <div class="break-box__price"> </div>  
+      <div class="filter-box">Filter</div>
+      <div class="break-box-list">
+        <div class="break-box">
+          <div class="break-box__left">
+            <div class="break-box__business-logo"><img class="break-box__img" src="https://media.grodno.in/source/photos/2015/11/15/estetic-logo.jpg"/></div>
+          </div>
+          <div class="break-box__right">
+            <div class="break-box__time-list">
+              <div class="break-box__time">8:00</div>
+              <div class="break-box__time">9:00</div>
+              <div class="break-box__time">10:00</div>
+              <div class="break-box__time">11:00</div>
+            </div>
+            <div class="break-box__info">
+              <div class="break-box__service"> 
+                <div class="break-box__service-name">Стрижка</div>
+                <div class="break-box__price">10 BYN</div>
+              </div>
+              <div class="break-box__business-name">Салон "Виктория"</div>
+              <div class="break-box__worker-name">Екатерина Иванова</div>
+              <div class="break-box__business-address">Минск, ул. 2-я Шестая линия</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
